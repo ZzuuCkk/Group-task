@@ -134,6 +134,79 @@ button{
     top:0;
     left:630px;
 }
+/*keti lomidze*/
+
+.about{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 80;
+}
+
+.about-txt{
+    position: absolute;
+    top: 340px;
+    left: 240px;
+}
+
+.section-h{
+    color: #171717;
+    font-size: 32px;
+    font-family: Helvetica;
+    line-height: 39px;
+    padding-bottom: 60px;
+}
+
+.section-txt{
+    color: #171717;
+    font-size: 16px;
+    font-family: Helvetica2;
+    line-height: 26px;
+    max-width: 463px;
+    width: 100%;
+}
+
+span{
+    color: #0A22F4;
+}
+
+.about-img{
+    position: absolute;
+    top: 560px;
+    left: 840px;
+    max-width: 707px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px #0A22F4;
+}
+
+.services{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 80;
+}
+
+.services-txt{
+    position: absolute;
+    top: 1300px;
+    left: 1095px;
+}
+.section-text{
+    margin-left: -30px;
+    position: absolute;
+}
+
+.services-img{
+    max-width: 707px;
+    width: 100%;
+    border-radius: 15px;
+    position: absolute;
+    top: 1438px;
+    left: 250px;
+    box-shadow: -10px 5px 5px #0A22F4;
+}
+
 /* last section */
 
 .project{
