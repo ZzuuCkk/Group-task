@@ -1,4 +1,139 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+/* გიორგი კირვალიძე */
+
+header{
+    background-color:#0020F4 ;
+    position: relative;
+
+}
+.header-logo{
+    position: absolute;
+    left: 240px;
+    top:40px;
+    z-index: 99;
+}
+
+.navbar{
+    position: absolute;
+    left: 603px;
+    right: 200px;
+    top: 50px;
+    z-index: 99;
+
+}
+
+.navbar-ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.navbar-li>a{
+    color:#FFFFFF;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: Helvetica;
+}
+button{
+    width: 160px;
+    height: 55px;
+    border-radius:28px;
+    margin-top: -25px;
+    border: none;
+    color: #171717;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+
+
+
+.slider{
+    padding-left: 240px;
+    padding-top: 215px;
+    padding-bottom: 65px;
+}
+
+
+.img-one{
+    max-width: 707px;
+    width: 100%;
+    border-radius: 15px;
+    padding-right: 25px;
+    padding-bottom: 138px;
+
+}
+.img-two{
+    max-width: 948px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+.slider-function{
+    padding-bottom: 138px;
+    position: relative;
+    top:-99px;
+    max-width: 707px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.slider-bullets{
+    position: absolute;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content: space-between;
+    width:50px;
+    border-radius:0;
+    box-shadow:none;
+
+  
+}
+.bullets{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    padding-left:3px;
+    padding-right:3px;
+    background-color:#ccc ;
+    
+    
+}
+.bullets:hover{
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+
+.arrows{
+
+    position: absolute; 
+    top:0;
+    left:630px;
+}
 /* last section */
 
 .project{
