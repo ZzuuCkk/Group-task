@@ -74,7 +74,7 @@
     filter: blur(0.05rem);
 
 }
-.txtt{
+.adress-txt{
     position: absolute;
     top: 380px;
     left: 10px;
@@ -121,7 +121,7 @@
 }
 
 
-.pr-txtt{
+.pr-adress-txt{
 
     position: absolute;
     top: 325px;
