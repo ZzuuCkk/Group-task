@@ -1,5 +1,6 @@
 
 /* last section */
+
 .project{
     position: relative;
     top:2394px;
@@ -74,7 +75,7 @@
     filter: blur(0.05rem);
 
 }
-.adress-txt{
+.txtt{
     position: absolute;
     top: 380px;
     left: 10px;
@@ -121,7 +122,7 @@
 }
 
 
-.pr-adress-txt{
+.pr-txtt{
 
     position: absolute;
     top: 325px;
